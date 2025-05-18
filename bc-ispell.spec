@@ -7,7 +7,7 @@ Version:	0
 Release:	0.%{snap}.1
 License:	LGPL v2+
 Group:		Libraries
-#Source0Download: https://gitlab.linphone.org/BC/public/bcunit/tags
+#Source0Download: https://gitlab.linphone.org/BC/public/external/ispell/-/tags
 Source0:	https://gitlab.linphone.org/BC/public/external/ispell/-/archive/%{gitref}/ispell-%{snap}.tar.bz2
 # Source0-md5:	0a56f85ccfbfffad109d98e38ab27063
 Patch0:		ispell-config.patch
