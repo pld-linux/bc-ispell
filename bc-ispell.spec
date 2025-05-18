@@ -37,8 +37,8 @@ Pliki nagłówkowe biblioteki ISpell.
 
 %prep
 %setup -q -n ispell-%{gitref}
-%patch0 -p1
-%patch1 -p1
+%patch -P0 -p1
+%patch -P1 -p1
 
 %{__sed} -i -e 's,/lib/,/%{_lib}/,' local.h.linux
 
